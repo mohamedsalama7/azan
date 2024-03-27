@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo.png">
+    <script defer src="node_modules/axios/dist/axios.min.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <div class="video" >
+    <video id="video" src="vid/makkah.mp4" autoplay muted loop></video>
+  </div>
+  <div class="container">
+    <!-- city name -->
+    <div class="head">
+      <h1 id="city-name">مكة المكرمة</h1>
+      <h6 class="date" id="this-day"></h6>
+    </div>
+    <hr>
+    <audio id="audio" autoplay  src="audio/1.mp3" controls></audio>
+    <div class="select-city">
+      <label for="#city"  class="select-name">تغيير المدينة</label>
+      <select name="" id="city">
+      </select>
+    </div>
+    <!-- prayer timing -->
+    <div class="cards">
+    </div>
+    <!-- end preyer timing -->
+    <!-- change city select -->
+  </div>
+  <body></body>
+</html>
