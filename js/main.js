@@ -45,7 +45,7 @@ citySelect.addEventListener("change",function(){
 // const axios = require('axios/dist/browser/axios.cjs'); // browser
 // const axios = require('axios/dist/node/axios.cjs'); // node
 function showAzan(){
-axios.get('http://api.aladhan.com/v1/timingsByCity', {
+axios.get('https://api.aladhan.com/v1/timingsByCity', {
   params: params
 })
   .then(function (response) {
